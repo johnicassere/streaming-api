@@ -1,4 +1,4 @@
-import { IsString, IsEmail, IsNotEmpty, Length } from 'class-validator';
+import { IsString, IsEmail, IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
 export class CrendentialsDto {
@@ -10,7 +10,6 @@ export class CrendentialsDto {
 
   @IsString()
   @IsNotEmpty()
-  @Length(6, 15)
   @ApiProperty()
   password: string;
 }
