@@ -12,11 +12,11 @@
 
 ## Technologies and requirements
 
-- NestJS
-- Prisma
-- PostgreSQL
-- Docker
-- Swagger
+- [NestJS](https://docs.nestjs.com/recipes/prisma)
+- [Prisma](https://www.prisma.io/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Docker](https://www.docker.com/)
+- [Swagger](https://swagger.io/)
 
 ## Project
 
@@ -39,7 +39,7 @@ npm run start:dev
 Lastly access [http://localhost:3000](http://localhost:3000). You can import the [insomnia collection](/collection.json) and test the existing routes or you can use [Swagger](http://localhost:3000/api).
 
 ## Deploy
-You can access the deployed application on [https://plants-api-1.herokuapp.com/api/](https://plants-api-1.herokuapp.com/api/).
+You can access the deployed application on [https://streaming-api-1.herokuapp.com/api/](https://streaming-api-1.herokuapp.com/api/).
 ## Status
 
 Done ✅
